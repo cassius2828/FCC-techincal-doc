@@ -1,0 +1,97 @@
+html,
+body {
+  width: 100%;
+}
+
+main {
+  margin: auto 5rem auto 20rem;
+}
+
+section {
+  margin: auto;
+}
+
+/* nav bar starts */
+
+.navbar-fixed {
+  /* border: solid 3px red; */
+  min-width: 242px;
+  display: flex;
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  margin: 0;
+  left: 0;
+  top: 0;
+}
+
+nav li {
+  list-style: none;
+  font-size: 1.1rem;
+  line-height: 5rem;
+  border: solid 1px grey;
+  border-left: none;
+  border-right: 2px solid grey;
+  text-align: left;
+  justify-content: left;
+  position: relative;
+  left: -2.4rem;
+  top: -1rem;
+  padding-left: 5px;
+  width: 112.6%;
+  min-width: 242px;
+}
+
+.navbar-heading {
+  border-bottom: 1px solid grey;
+  border-right: 2px solid grey;
+  font-size: 2rem;
+  padding-left: 5px;
+  /* min-width: 242px; */
+}
+
+.nav-link {
+  color: black;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: rgb(88, 138, 191);
+  font-size: 1.2rem;
+}
+
+#glo {
+  border-bottom: 2px solid grey;
+}
+
+/* nav bar ends */
+
+.java-bg {
+  background-color: rgba(209, 209, 209, 0.5);
+  border-radius: 3px;
+  padding: 1rem;
+}
+
+#ref:hover {
+  color: rgb(88, 138, 191);
+}
+
+
+/* new header to replace h1 for the freecodecamp */
+
+header {
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+/* Media Query for Small devices */
+
+@media (max-width: 610px) {
+  .navbar-fixed {
+    display: none;
+  }
+  main {
+    margin: auto 2rem;
+    text-align: left;
+  }
+}
